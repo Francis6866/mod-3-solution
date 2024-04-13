@@ -1,0 +1,18 @@
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+   .navbar .navbar-toggler,
+   .navbar .md-none {
+        display: none !important;
+    }
+}
+@media (max-width: 575.5px) {
+    section{
+        width: 83.3% !important;
+    }
+}
